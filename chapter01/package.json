@@ -1,0 +1,21 @@
+{
+  "name": "chapter01",
+  "version": "1.0.0",
+  "description": "TypeScript is a superset of JavaScript version ES6.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "webdriver-manager update && jasmine init",
+    "build": "tsc",
+    "test": "./node_modules/.bin/protractor spec/protractor.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.4.2",
+    "@types/node": "^12.7.11",
+    "jasmine": "^3.5.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "typescript": "^3.6.3"
+  }
+}
