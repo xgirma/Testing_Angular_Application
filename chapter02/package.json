@@ -27,6 +27,6 @@
     "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.6.3",
-    "watchify": "^3.11.1"
+    "watchify": "^4.0.0"
   }
 }
